@@ -207,6 +207,13 @@ img {
   display: block;
 }
 
+.titulo {
+  width: 100%;
+  background-color:  rgb(29, 87, 173);
+}
+.ti {
+  margin-left: 40%;
+}
 
   @media screen and (max-width: 750px) {
     #main-menu {
