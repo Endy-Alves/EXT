@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="./script.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,10 +27,25 @@
           <a class="clientes" href="#">Faça seu orçamento conosco  &lArr;</a>
           <br>
           <br>
-          <a class="clientes" href="#">Cadastre-se  &lArr;</a>          
+          <a class="clientes" onclick="openForm()"  href="#">Cadastre-se  &lArr;</a>          
         </div>
       </div>
       
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 class="lgn">Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
 <input type="checkbox" id="hamburger-input" class="burger-shower" />
 <label id="hamburger-menu" for="hamburger-input">
   <nav id="sidebar-menu">
