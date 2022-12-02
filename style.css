@@ -269,13 +269,14 @@ img {
 }
 
   @media screen and (max-width: 750px) {
+   
     #main-menu {
       display: none;
     }
     #hamburger-menu {
       display: inline;
-     
     }
+
     h2 {
         margin-left: 30%;
     }
@@ -283,5 +284,59 @@ img {
         float: right;
         width: 5%;
     }
-    
+    .rodape {
+      margin-top: 150%;
+    }
+    .iLogo{
+      margin-left: 1em;
+      width: 2em;
+    }
+    .terms{
+      font-size: 11px;
+    }
+    .pp{
+      font-size: 11px;
+    }
+    .ua{
+      font-size: 11px;
+    }
+    .spp{
+      font-size: 11px;
+    }
+    .final{
+      font-size: 9px;
+    }
+    .n4{
+      font-size: 15px;
+    }
+    .balao4{
+      margin-right: -90px;
+      margin-top: 10em;
+    }
+    .n3{
+      font-size: 15px;
+    }
+    .balao3{
+      margin-top: 8em;
+      margin-left: -90px;
+    }
+    .n2{
+      font-size: 15px;
+    }
+    .balao2{
+      margin-top: 8em;
+      margin-right: -90px;
+    }
+    .n1{
+      font-size: 15px;
+    }
+    .balao{
+      margin-left: -90px;
+    }
+    .ti{
+      margin-left: 30%;
+    }
+    .dropdown{
+      display: none;
+    }
   }
