@@ -11,6 +11,11 @@ body {
     margin-right: 5px;
     width: 5%;
 }
+.logo2{
+  margin-top: 3em;
+  margin-left: 43% !important;
+  width: 11em !important;
+}
 
 .headline {
     margin: 0%;
@@ -40,8 +45,8 @@ img {
 }
  .teste {
     background-color: rgb(29, 87, 173);
-    width: 4em;
-    margin-left: 40%;
+    width: 6em;
+    margin-left: 43%;
     height: 35px;
  }
 
