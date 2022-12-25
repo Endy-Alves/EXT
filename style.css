@@ -454,6 +454,10 @@ img {
 }
 
   @media screen and (max-width: 746px) {
+    html{
+      padding: 0;
+      margin: 0;
+    }
     body{
       margin: 0;
       padding: 0;
@@ -470,13 +474,14 @@ img {
       z-index: 1;
     }
     h2 {
-        margin-left: 1.5em;
+        margin-left: 35%em;
     }
     .logo {
         float: right;
         width: 5%;
     }
     .rodape {
+      width: 100%;
       margin-top: 180%;
     }
     .iLogo{
@@ -535,18 +540,140 @@ img {
       display: none;
     }
     .teste{
-      margin-left: 3em;
+      margin-left: 38%;
       margin-top: 2em;
     }
     .logo2{
-      margin-left: 8em !important;
+      margin-left: 40% !important;
       width: 100px !important;
     }
     .Init{
-      padding-top: 2em;
+      width: 100%;
+      padding-top: 0em;
     }
     .content{
-      margin-top: -2em;
+      margin-left: -2em;
+      position: absolute;
+      margin-top: -32em;
+    }
+    .LI{
+      font-size: 23px;
+      margin-left: -4.5em !important;
+    }
+    .LI2{
+      font-size: 25px;
+      margin-left: -4em !important;
+    
+    }
+    .LI3{
+      margin-left: -4em !important;
+      font-size: 25px;
+    }
+    .LI4{
+      margin-left: -3em !important;
+      font-size: 25px;
+    }
+  }
+
+
+  @media screen and (max-width: 2000px) {
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    #main-menu {
+      display: none;
+    }
+    #hamburger-menu {
+      position: absolute;
+      display: block;
+    }
+    #sidebar-menu{
+      position: absolute;
+      z-index: 1;
+    }
+    h2 {
+        margin-left: 35%;
+    }
+    .logo {
+        float: right;
+        width: 5%;
+    }
+    .rodape {
+      width: 100%;
+      margin-top: 180%;
+    }
+    .iLogo{
+      margin-left: 1em;
+      width: 2em;
+    }
+    .terms{
+      font-size: 11px;
+    }
+    .pp{
+      font-size: 11px;
+    }
+    .ua{
+      font-size: 11px;
+    }
+    .spp{
+      font-size: 11px;
+    }
+    .final{
+      font-size: 9px;
+    }
+    .n4{
+      font-size: 15px;
+    }
+    .balao4{
+      margin-right: -10.4em;
+      margin-top: 17em;
+    }
+    .n3{
+      font-size: 10px;
+    }
+    .n4{
+      font-size: 10px;
+    }
+    .balao3{
+      margin-top: 11em;
+      margin-left: -10.5em;
+    }
+    .n2{
+      font-size: 10px;
+    }
+    .balao2{
+      margin-top: 6em;
+      margin-right: -75px;
+    }
+    .n1{
+      font-size: 10px;
+    }
+    .balao{
+      margin-left: -80px;
+    }
+    .ti{
+      margin-left: 30%;
+    }
+    .dropdown{
+      display: none;
+    }
+    .teste{
+      margin-left: 38%;
+      margin-top: 2em;
+    }
+    .logo2{
+      margin-left: 40% !important;
+      width: 100px !important;
+    }
+    .Init{
+      width: 100%;
+      padding-top: 0em;
+    }
+    .content{
+      margin-left: -2em;
+      position: absolute;
+      margin-top: -32em;
     }
     .LI{
       font-size: 23px;
