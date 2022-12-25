@@ -455,8 +455,8 @@ img {
 
   @media screen and (max-width: 746px) {
     body{
-      margin: 0px;
-      padding: 0px;
+      margin: -5em;
+      padding: -5em;
     }
     #main-menu {
       display: none;
