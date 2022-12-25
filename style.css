@@ -453,7 +453,7 @@ img {
   margin-top: 6em;
 }
 
-  @media (min-width: 200px) and (max-width: 750px) {
+  @media screen and (max-width: 750px) {
     body{
       margin: 0px;
       padding: 0px;
