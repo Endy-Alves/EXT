@@ -70,4 +70,10 @@
     .iLogo{
         margin-left: 1%;
     }
+    .visible{
+
+    }
+    .content{
+        position: absolute;
+    }
 }
