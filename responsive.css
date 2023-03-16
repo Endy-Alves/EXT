@@ -1,0 +1,73 @@
+@media screen and (max-width: 667px) {
+    #main-menu a{
+        font-size: 19px;
+        margin-left: -3em;
+    }
+    #main-menu{
+        width: 95%;
+    }
+    .serviços{
+        margin-top: 1em;
+        z-index: 2;
+    }
+    .Init{
+        position: absolute;
+        margin-top: -2em;
+        width: 95%;
+    }
+    .dropdown-content{
+        margin-top: 2em;
+        z-index: 3;
+    }
+    .balao{
+        margin-top: 32em;
+        margin-left: -20%;
+    }
+    .teste{
+        margin-left: 29%;
+        width: 48%;
+    }
+    h2{
+        margin-left: 9%;
+    }
+    .logo2{
+        margin-left: 29% !important;
+    }
+    .n1{
+        font-size: 9px;
+    }
+    .n2{
+        font-size: 9px;
+    }
+    .n3{
+        font-size: 9px;
+    }
+    .n4{
+        font-size: 9px;
+    }
+    .balao2{
+    margin-top: 50em;
+    position: absolute !important;
+    margin-right: -20%;
+    }
+    .balao3{
+        margin-top: 55em;
+        position: absolute !important;
+        margin-left: -20%;
+        }
+        .balao4{
+            margin-top: 61em;
+            position: absolute !important;
+            margin-right: -20%;
+            }
+    .all{
+        margin-top: 0em;
+        font-size: 9px;
+    }
+    .rodape{
+        margin-top: 80em;
+    }
+    .iLogo{
+        margin-left: 1%;
+    }
+}
