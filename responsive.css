@@ -75,10 +75,6 @@
     }
     .content{
         position: absolute;
-    }
-}
-@media (min-width: 412px) and (max-width: 914px) {
-    .content{
-        margin-top: -70%;
+        margin-top: 21em;
     }
 }
