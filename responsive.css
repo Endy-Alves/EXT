@@ -4,7 +4,7 @@
         margin-left: -3em;
     }
     #main-menu{
-        width: 95%;
+        width: 100%;
     }
     .serviços{
         margin-top: 1em;
@@ -13,7 +13,7 @@
     .Init{
         position: absolute;
         margin-top: -2em;
-        width: 95%;
+        width: 100%;
     }
     .dropdown-content{
         margin-top: 2em;
@@ -61,8 +61,8 @@
             margin-right: -20%;
             }
     .all{
-        margin-top: 0em;
-        font-size: 9px;
+        margin-top: 3em;
+        font-size: 7px;
     }
     .rodape{
         margin-top: 80em;
